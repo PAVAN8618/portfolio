@@ -1,0 +1,30 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: aqua;
+  }
+
+  .languageList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h1{
+    margin-bottom: 30px;
+  }
+  .languageCard {
+    max-width: 300px;
+    color: #d0cfd2;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    background-color: #ce7373;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 10%);
+    transition: transform 0.2s;
+  }
+
+  .languageCard:hover {
+    transform: translateY(-3px);
+  }
